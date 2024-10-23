@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1">
     <url>
-        <loc>https://www.alyssaflorist.com/</loc>
-        <lastmod>2024-07-25</lastmod>
+        <loc>https://www.alyssaflorist.com</loc>
+        <lastmod>2024-10-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://www.alyssaflorist.com/sukses</loc>
-        <lastmod>2024-07-25</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://www.alyssaflorist.com/sukses.html</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.alyssaflorist.com/wedding</loc>
-        <lastmod>2024-07-25</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://www.alyssaflorist.com/bouquet.html</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.alyssaflorist.com/dukacita</loc>
-        <lastmod>2024-07-25</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://www.alyssaflorist.com/wedding.html</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.alyssaflorist.com/congratulations</loc>
-        <lastmod>2024-07-25</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://www.alyssaflorist.com/dukacita.html</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.alyssaflorist.com/bouquet</loc>
-        <lastmod>2024-07-25</lastmod>
-        <changefreq>monthly</changefreq>
+        <loc>https://www.alyssaflorist.com/congratulations.html</loc>
+        <lastmod>2024-10-23</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 </urlset>
