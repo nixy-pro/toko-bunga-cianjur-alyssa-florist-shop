@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylish Google Maps with Image and Button</title>
+    <title>Maps Alyssa Florist</title>
     <style>
-        /* Container untuk keseluruhan konten */
+        /* Pengaturan umum tampilan */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            background-color: #f3f4f6;
+            background: linear-gradient(135deg, #f3f4f6, #e2e8f0);
             color: #333;
             display: flex;
             justify-content: center;
@@ -17,6 +23,19 @@
             margin: 0;
         }
 
+        /* Navigasi di bagian atas */
+        .navbar {
+            width: 100%;
+            background-color: #4CAF50;
+            padding: 15px 0;
+            text-align: center;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Container untuk keseluruhan konten */
         .content-container {
             max-width: 600px;
             margin: 20px auto;
@@ -25,27 +44,27 @@
             border-radius: 12px;
             box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
             padding: 20px;
+            overflow: hidden;
         }
 
         /* Gaya untuk gambar kotak bundar */
         .top-image {
-            width: 100%; /* Ukuran otomatis sesuai kontainer */
+            width: 100%;
             height: auto;
-            border-radius: 20px; /* Membuat gambar dengan sudut bundar */
+            border-radius: 20px;
             object-fit: cover;
-            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Efek bayangan */
-            margin-bottom: 20px; /* Spasi bawah gambar */
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
         }
 
         /* Container untuk Google Maps */
         .map-container {
             position: relative;
-            padding-top: 56.25%; /* Rasio 16:9 */
+            padding-top: 56.25%;
             overflow: hidden;
-            border: 8px solid #4CAF50; /* Warna border */
             border-radius: 12px;
             box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
-            margin: 0 auto 20px; /* Tengah halaman dan beri jarak bawah */
+            margin: 0 auto 20px;
             max-width: 100%;
         }
 
@@ -57,7 +76,6 @@
             width: 100%;
             height: 100%;
             border: none;
-            border-radius: 4px;
         }
 
         /* Gaya untuk tombol */
@@ -65,7 +83,7 @@
             display: inline-block;
             padding: 12px 24px;
             color: #ffffff;
-            background-color: #4CAF50; /* Warna hijau keren */
+            background-color: #4CAF50;
             text-decoration: none;
             border-radius: 8px;
             font-size: 18px;
@@ -84,6 +102,11 @@
 </head>
 <body>
 
+<!-- Navigasi Alyssa Florist -->
+<div class="navbar">
+    Alyssa Florist
+</div>
+
 <div class="content-container">
     <!-- Gambar kotak bundar di atas -->
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6EI96NNI06c8ap0vGyllmlvpw15xJjrozCnQ8i0ELCr7qGrOTuoEbyZ_fE36j3ysTRgsowUTq-2b9MFXZJbPryDXqgHxkZdEpizS6bQLx5iZm300LI9ig4fhEWkO5GlbuGc8nMcp0hhxZ7J6pLwBXA2tlRubMZxodr54ugDjVdEowG9uN0Wd0IafV-JR9/w600/1.jpg" 
@@ -97,7 +120,7 @@
     </div>
 
     <!-- Tombol Kunjungi Toko -->
-    <a href="https://www.google.com/maps/dir/?api=1&destination=Alissya%20Florist%20Cianjur" target="_blank" class="visit-button">Kunjungi Toko</a>
+    <a href="https://www.alyssaflorist.com" target="_blank" class="visit-button">Kunjungi Toko</a>
 </div>
 
 </body>
