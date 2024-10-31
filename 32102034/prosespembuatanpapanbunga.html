@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alyssa Florist - Karangan Bunga Keren dan Elegan</title>
+    <meta name="description" content="Pembuatan karangan papan bunga yang elegan dan berkualitas oleh Alyssa Florist, dengan desain dan tampilan yang keren UI/UX.">
+    <meta name="keywords" content="Alyssa Florist, karangan bunga, papan bunga, toko bunga, desain UI/UX, florist terbaik, bunga Cianjur">
+    <link rel="icon" href="https://www.alyssaflorist.com/icon.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(145deg, #ffffff, #e0e0e0);
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+            max-width: 800px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #FF6E61;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .description {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: 200px;
+            border-radius: 15px;
+            object-fit: cover;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #ffffff;
+            background: linear-gradient(145deg, #FF6E61, #d9534f);
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: inline-block;
+        }
+
+        .button::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            background: linear-gradient(45deg, #ff9a8b, #ff6e61);
+            border-radius: 12px;
+            z-index: -1;
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+
+        .button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .button:hover::before {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Alyssa Florist</h1>
+        <p class="description">Pembuatan karangan papan bunga yang elegan dan berkualitas, dibuat dengan desain yang keren oleh Alyssa Florist. Untuk tampilan dan warna yang indah, memberikan kesan terbaik pada setiap acara Anda.</p>
+        <div class="image-container">
+            <img src="https://www.alyssaflorist.com/32102034/1.jpg" alt="Karangan Bunga Alyssa Florist 1">
+            <img src="https://www.alyssaflorist.com/32102034/2.jpg" alt="Karangan Bunga Alyssa Florist 2">
+            <img src="https://www.alyssaflorist.com/32102034/3.jpg" alt="Karangan Bunga Alyssa Florist 3">
+        </div>
+        <a href="https://www.alyssaflorist.com" class="button">Kunjungi Toko</a>
+    </div>
+</body>
+</html>
