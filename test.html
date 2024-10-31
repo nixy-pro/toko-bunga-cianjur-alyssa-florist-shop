@@ -21,7 +21,6 @@
             flex-direction: column;
             align-items: center;
             min-height: 100vh;
-            margin: 0;
         }
 
         /* Navigasi panjang bundar di bagian atas */
@@ -35,19 +34,8 @@
             font-size: 24px;
             font-weight: bold;
             border-radius: 25px;
-            margin-top: 20px; /* Jarak dari atas */
+            margin-top: 20px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Container untuk keseluruhan konten */
-        .content-container {
-            max-width: 600px;
-            margin: 20px auto;
-            text-align: center;
-            background-color: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
-            padding: 20px;
         }
 
         /* Gaya untuk gambar kotak bundar */
@@ -57,7 +45,7 @@
             border-radius: 20px;
             object-fit: cover;
             box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-            margin-bottom: 20px;
+            margin: 20px 0;
         }
 
         /* Container untuk Google Maps */
@@ -67,8 +55,9 @@
             overflow: hidden;
             border-radius: 12px;
             box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
-            margin: 0 auto 20px;
-            max-width: 100%;
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
         }
 
         /* Iframe responsif */
@@ -93,7 +82,6 @@
             font-weight: bold;
             box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
             transition: all 0.3s ease;
-            margin-top: 10px;
         }
 
         /* Efek hover pada tombol */
@@ -110,21 +98,19 @@
     Alyssa Florist
 </div>
 
-<div class="content-container">
-    <!-- Gambar kotak bundar di atas -->
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6EI96NNI06c8ap0vGyllmlvpw15xJjrozCnQ8i0ELCr7qGrOTuoEbyZ_fE36j3ysTRgsowUTq-2b9MFXZJbPryDXqgHxkZdEpizS6bQLx5iZm300LI9ig4fhEWkO5GlbuGc8nMcp0hhxZ7J6pLwBXA2tlRubMZxodr54ugDjVdEowG9uN0Wd0IafV-JR9/w600/1.jpg" 
-         alt="Foto Toko" class="top-image">
+<!-- Gambar kotak bundar di atas -->
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6EI96NNI06c8ap0vGyllmlvpw15xJjrozCnQ8i0ELCr7qGrOTuoEbyZ_fE36j3ysTRgsowUTq-2b9MFXZJbPryDXqgHxkZdEpizS6bQLx5iZm300LI9ig4fhEWkO5GlbuGc8nMcp0hhxZ7J6pLwBXA2tlRubMZxodr54ugDjVdEowG9uN0Wd0IafV-JR9/w600/1.jpg" 
+     alt="Foto Toko" class="top-image">
 
-    <!-- Peta Google Maps -->
-    <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.591118107665!2d107.13043980801403!3d-6.819481666669712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e685398483352af%3A0x6e21331507003585!2sAlissya%20Florist%20Cianjur!5e0!3m2!1sid!2ssg!4v1730359891448!5m2!1sid!2ssg" 
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </div>
-
-    <!-- Tombol Kunjungi Toko -->
-    <a href="https://www.alyssaflorist.com" target="_blank" class="visit-button">Kunjungi Toko</a>
+<!-- Peta Google Maps -->
+<div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.591118107665!2d107.13043980801403!3d-6.819481666669712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e685398483352af%3A0x6e21331507003585!2sAlissya%20Florist%20Cianjur!5e0!3m2!1sid!2ssg!4v1730359891448!5m2!1sid!2ssg" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
 </div>
+
+<!-- Tombol Kunjungi Toko -->
+<a href="https://www.alyssaflorist.com" target="_blank" class="visit-button">Kunjungi Toko</a>
 
 </body>
 </html>
