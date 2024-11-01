@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Bunga Bandung - Alyssa Florist</title>
+    <meta name="description" content="Toko Bunga Bandung Alyssa Florist menyediakan rangkaian bunga segar dan berkualitas untuk berbagai acara spesial di Bandung.">
+    <meta name="keywords" content="Toko Bunga Bandung, Alyssa Florist, Bunga Segar Bandung, Rangkaian Bunga, Buket Bunga, Toko Bunga, Bunga untuk Acara Spesial">
+    <link rel="icon" href="https://www.alyssaflorist.com/icon.png" type="image/png">
+    <style>
+        /* Style dasar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+            background-color: #f3f6fa;
+        }
+
+        /* Background animasi bunga */
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .flower {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-image: url('https://www.alyssaflorist.com/icon.png'); /* Gunakan URL gambar bunga */
+            background-size: contain;
+            opacity: 0.7;
+            animation: float 10s linear infinite;
+        }
+
+        /* Keyframes untuk animasi melayang */
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* Beberapa variasi bunga */
+        .flower:nth-child(1) { left: 10%; animation-duration: 12s; }
+        .flower:nth-child(2) { left: 30%; animation-duration: 15s; }
+        .flower:nth-child(3) { left: 50%; animation-duration: 10s; }
+        .flower:nth-child(4) { left: 70%; animation-duration: 18s; }
+        .flower:nth-child(5) { left: 90%; animation-duration: 13s; }
+
+        /* Responsif untuk tampilan seluler */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .header p {
+                font-size: 1em;
+            }
+            .btn-3d {
+                font-size: 1em;
+                padding: 10px 25px;
+            }
+        }
+
+        /* Judul dan deskripsi */
+        .header {
+            padding: 20px;
+            z-index: 1;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #8E24AA;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            color: #555;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+        /* Tombol 3D */
+        .btn-3d {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            color: #fff;
+            background-color: #8E24AA;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 4px #6A1B9A;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            z-index: 1;
+        }
+
+        .btn-3d:hover {
+            transform: translateY(-3px);
+            background-color: #7B1FA2;
+            box-shadow: 0 8px #4A148C;
+        }
+
+        .btn-3d:active {
+            transform: translateY(2px);
+            box-shadow: 0 4px #6A1B9A;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background">
+        <div class="flower"></div>
+        <div class="flower"></div>
+        <div class="flower"></div>
+        <div class="flower"></div>
+        <div class="flower"></div>
+    </div>
+
+    <div class="header">
+        <h1>Toko Bunga Bandung - Alyssa Florist</h1>
+        <p>Toko bunga terbaik di Bandung, menyediakan rangkaian bunga segar dan berkualitas untuk berbagai acara spesial Anda.</p>
+    </div>
+
+    <a href="https://www.alyssaflorist.com" class="btn-3d">Kunjungi Toko</a>
+
+</body>
+</html>
